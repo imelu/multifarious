@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{24ea195f-b677-4cc7-839e-803dda69cc2a}">
+		<property name="assetPath">
+			<value>Multifarious_enemy_eating.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>26</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28d0b5ac-d0f7-4984-9e5c-4ff3710bc25e}</destination>
+		</relationship>
+	</object>
+</objects>

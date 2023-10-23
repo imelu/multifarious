@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f6e6a93b0e6404e97a685744cc075a, type: 3}
+  m_Name: TutorialData
+  m_EditorClassIdentifier: 
+  steps:
+  - action: 0
+    upperText: Find a Resource Plant!
+    lowerText: It is marked blue on your compass.
+  - action: 1
+    upperText: A connection is forming!
+    lowerText: Wait for the connection to be completed.
+  - action: 2
+    upperText: Find an Ability Fungus!
+    lowerText: It is marked on your compass.
+  - action: 3
+    upperText: A connection is forming!
+    lowerText: Wait for the connection to be completed.
+  - action: 4
+    upperText: Select an ability on the fungus!
+    lowerText: Interact with connected fungus with X.
+  - action: 5
+    upperText: Return to the Mycelium Center!
+    lowerText: It is marked on your compass.
+  - action: 6
+    upperText: Activate the new Ability!
+    lowerText: Interact with the mycelium center with X.

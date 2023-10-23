@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d1b056b4-c695-4ec1-9767-c42a46bce616}">
+		<property name="assetPath">
+			<value>Multifarious_ver1_2outside_main.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>132</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28d0b5ac-d0f7-4984-9e5c-4ff3710bc25e}</destination>
+		</relationship>
+	</object>
+</objects>

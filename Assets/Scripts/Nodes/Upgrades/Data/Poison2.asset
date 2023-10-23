@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da98be9aac3a63e469136b8b16acef7e, type: 3}
+  m_Name: Poison2
+  m_EditorClassIdentifier: 
+  upgradeName: Toxic Mycelium
+  uiSprite: {fileID: 21300000, guid: 38e872eee302b0748950f82d0736896d, type: 3}
+  uiSprite45Deg: {fileID: 21300000, guid: b10f38b47d750604ea72c122142d367d, type: 3}
+  description: Mutate your Mycelium Network to weakly poison all predators who feed
+    on it!
+  modifier: 0
+  damage: 2
+  duration: 10
+  isStackable: 0
+  resourceCost:
+  - type: 0
+    count: 0
+  - type: 1
+    count: 2
+  - type: 2
+    count: 0
+  key:
+    type: 1
+    index: 2
+  selectedP1: 0
+  selectedP2: 0

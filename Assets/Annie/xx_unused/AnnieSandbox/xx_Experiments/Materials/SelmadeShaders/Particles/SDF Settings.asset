@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b39b5d8c266cba4a87b674513ba07d1, type: 3}
+  m_Name: SDF Settings
+  m_EditorClassIdentifier: 
+  m_MaxResolution: 64
+  m_BoxCenter: {x: 3.602684, y: 33.27618, z: -3.7490482}
+  m_BoxSizeReference: {x: 124.565254, y: 124.565254, z: 124.565254}
+  m_FitPaddingVoxel: {x: 1, y: 1, z: 1}
+  m_SignPassesCount: 1
+  m_InOutThreshold: 0.5
+  m_SurfaceOffset: 0
+  m_ModelSource: 0
+  m_SelectedMesh: {fileID: 7757730821550143917, guid: 300dd3b55c40daf45ace748528d92e93,
+    type: 3}
+  m_MeshPrefab: {fileID: 0}
+  m_Mesh: {fileID: 7757730821550143917, guid: 300dd3b55c40daf45ace748528d92e93, type: 3}
+  m_LiftSizeLimit: 0
+  m_PreviewObject: 3

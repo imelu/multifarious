@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{39aa6dc6-f6d5-4437-bf87-b4e5183180a8}">
+		<property name="assetPath">
+			<value>Multifarious_ver1_3enemies_main2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>132</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28d0b5ac-d0f7-4984-9e5c-4ff3710bc25e}</destination>
+		</relationship>
+	</object>
+</objects>

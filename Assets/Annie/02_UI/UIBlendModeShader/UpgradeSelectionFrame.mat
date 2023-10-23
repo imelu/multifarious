@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UpgradeSelectionFrame
+  m_Shader: {fileID: -6465566751694194690, guid: f0d2a0b350cfdc64d87d9bbde7a1220c,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Consumption:
+        m_Texture: {fileID: 2800000, guid: 9a259cacffed0ae4ea39494c0fe6ad8e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Inflow:
+        m_Texture: {fileID: 2800000, guid: 5ca8a86856e68724582ccdc0a1f4a940, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6fc64776e4d0d1d498b0dfae0d3a403d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Remaining:
+        m_Texture: {fileID: 2800000, guid: 6c74d1a26f36e6742a38c5ace3e334dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Upgrades:
+        m_Texture: {fileID: 2800000, guid: 720dca1cc84dd0146a68364d5a291b1f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FrameConsumption: 0
+    - _FrameInflow: 1
+    - _FrameRemaining: 0
+    - _FrameUpgrades: 0
+    m_Colors:
+    - _Color: {r: 0.2901961, g: 0.38039216, b: 0.3019608, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlantsShaderMaterial11
+  m_Shader: {fileID: -6465566751694194690, guid: 3ce691f5ecb064144b4403500eac29d8,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTexture:
+        m_Texture: {fileID: 2800000, guid: ef1e6efacd9d5d5459de649c4b815d9e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: e8148ebe739ce764d8ea8c090500bc57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.1}
+    - _AlphaMaskFresnel:
+        m_Texture: {fileID: 2800000, guid: 50119f2b26ceb084ab68e89ab410fda5, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelAddition:
+        m_Texture: {fileID: 2800000, guid: e8148ebe739ce764d8ea8c090500bc57, type: 3}
+        m_Scale: {x: 4, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlbedoActivate: 0
+    - _AlbedoTextureActivate: 0
+    - _Alpha: 0
+    - _AlphaFresnelMask: 0
+    - _FresnelAdditionActivate: 0
+    - _FresnelPower: 1.06
+    - _FresnelStepEdge01: 0.68
+    - _FresnelStepEdge02: 0.75
+    - _IOR: 0
+    - _IQR: 0.5
+    - _InvertFresnel: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0.06370115, b: 1, a: 0.44705883}
+    - _FresnelColor: {r: 0, g: 1.8867044, b: 22.894424, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3422179993402996101
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

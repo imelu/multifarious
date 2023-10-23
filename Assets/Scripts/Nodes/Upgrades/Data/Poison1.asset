@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da98be9aac3a63e469136b8b16acef7e, type: 3}
+  m_Name: Poison1
+  m_EditorClassIdentifier: 
+  upgradeName: Poison Spores
+  uiSprite: {fileID: 21300000, guid: 06b814eb3d894dc4aaa5e8c2b3cd7612, type: 3}
+  uiSprite45Deg: {fileID: 21300000, guid: 4c42d6f92ddb7754ebca88e54c5246b1, type: 3}
+  description: Learn how to send out Poison Spores from the Base Center to find and
+    detonate near predators to strongly poison them!
+  modifier: 0
+  damage: 10
+  duration: 10
+  isStackable: 0
+  resourceCost:
+  - type: 0
+    count: 1
+  - type: 1
+    count: 1
+  - type: 2
+    count: 0
+  key:
+    type: 1
+    index: 1
+  selectedP1: 0
+  selectedP2: 0

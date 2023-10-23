@@ -1,0 +1,6 @@
+Fog: 
+09181D
+Denisty: 0.28 
+Mycelium:
+Main col: 130C0A
+Spec col: 4B7782
